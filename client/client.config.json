@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "clientId": "example-company",
+  "brand": {
+    "companyName": "サンプル株式会社",
+    "assistantName": "サンプル AI コンシェルジュ",
+    "description": "サービス、会社情報、採用、お問い合わせについてご案内します。",
+    "homeUrl": "https://example.com/",
+    "privacyPolicyUrl": "https://example.com/privacy",
+    "logo": "/client-assets/logo.svg",
+    "logoWhite": "/client-assets/logo-white.svg",
+    "fontFamily": "Noto Sans JP, sans-serif",
+    "colors": {
+      "primary": "#2563EB",
+      "primaryDark": "#1D4ED8",
+      "secondary": "#7C3AED",
+      "surface": "#FFFFFF",
+      "surfaceMuted": "#EFF6FF",
+      "border": "#BFDBFE",
+      "text": "#172033",
+      "textMuted": "#64748B"
+    }
+  },
+  "assistant": {
+    "locale": "ja",
+    "onlineLabel": "オンライン",
+    "relatedLabel": "関連情報",
+    "citationLabel": "参照した情報",
+    "quickActions": [
+      { "label": "サービス案内", "message": "サービスについて教えてください" },
+      { "label": "会社情報", "message": "どのような会社ですか？" },
+      { "label": "お問い合わせ", "message": "問い合わせ方法を教えてください" }
+    ]
+  },
+  "richContent": {
+    "tokenPrefix": "CHATBOT_CARD",
+    "collections": {
+      "services": ["service-a", "service-b", "case-study"]
+    },
+    "cards": [
+      {
+        "id": "service-a",
+        "renderer": "card",
+        "eyebrow": "SERVICE",
+        "title": "サービスA",
+        "description": "クライアントの代表的なサービス説明へ差し替えてください。",
+        "href": "https://example.com/service-a",
+        "ctaLabel": "詳しく見る",
+        "image": "/client-assets/service-a.svg",
+        "imageAlt": "サービスAのイメージ"
+      },
+      {
+        "id": "service-b",
+        "renderer": "card",
+        "eyebrow": "SERVICE",
+        "title": "サービスB",
+        "description": "カードは追加・削除でき、独自レンダラーへの拡張も可能です。",
+        "href": "https://example.com/service-b",
+        "ctaLabel": "詳しく見る",
+        "image": "/client-assets/service-b.svg",
+        "imageAlt": "サービスBのイメージ"
+      },
+      {
+        "id": "case-study",
+        "renderer": "card",
+        "eyebrow": "CASE STUDY",
+        "title": "導入事例",
+        "description": "実績や導入事例を画像付きで案内できます。",
+        "href": "https://example.com/case-study",
+        "ctaLabel": "事例を見る",
+        "image": "/client-assets/case-study.svg",
+        "imageAlt": "導入事例のイメージ"
+      },
+      {
+        "id": "contact",
+        "renderer": "card",
+        "eyebrow": "CONTACT",
+        "title": "お問い合わせ",
+        "description": "詳しいご相談は担当者がご案内します。",
+        "href": "https://example.com/contact",
+        "ctaLabel": "問い合わせる",
+        "image": "/client-assets/contact.svg",
+        "imageAlt": "お問い合わせのイメージ"
+      }
+    ]
+  },
+  "embed": {
+    "chatUrl": "https://YOUR-VERCEL-PROJECT.vercel.app",
+    "greeting": "何かお困りですか？AIアシスタントがご案内します。",
+    "position": "right",
+    "offsetX": 24,
+    "offsetY": 24,
+    "panelWidth": 440,
+    "panelHeight": 680
+  },
+  "attribution": {
+    "show": true,
+    "label": "Powered by LANTERN",
+    "url": "https://lantern-inc.jp/"
+  }
+}

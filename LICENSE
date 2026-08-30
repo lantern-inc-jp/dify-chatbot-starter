@@ -1,0 +1,32 @@
+LANTERN PROPRIETARY SOFTWARE NOTICE
+
+Copyright (c) 2026 LANTERN, inc. All rights reserved.
+
+Except for third-party materials identified in THIRD_PARTY_NOTICES.md or in
+their accompanying notices, no license or permission is granted to any person
+or entity to use, copy, reproduce, modify, merge, publish, distribute,
+sublicense, sell, host, deploy, disclose, or create derivative works from this
+software, documentation, designs, configuration, or other materials.
+
+Access to this repository does not grant any right to use its contents.
+Any use requires prior written authorization from LANTERN, inc.
+
+THE LANTERN-PROPRIETARY MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+This notice does not restrict rights granted under applicable third-party
+licenses. See THIRD_PARTY_NOTICES.md.
+
+---
+
+LANTERN 独自部分に関する権利表示
+
+Copyright (c) 2026 LANTERN, inc. All rights reserved.
+
+THIRD_PARTY_NOTICES.md等で第三者著作物として明示されている部分を除き、
+本リポジトリへのアクセスによって利用許諾は付与されません。LANTERN, inc.の
+事前の書面による許可なく、利用、複製、改変、公開、配布、再許諾、販売、
+ホスティング、デプロイ、開示、派生物の作成を行うことを禁止します。
+
+第三者著作物には、それぞれの第三者ライセンスが適用されます。
